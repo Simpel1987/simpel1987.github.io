@@ -1,6 +1,48 @@
 body
 {
-color:black;
+    color:black;
     background-color: grey;
 
+}
+#container
+{
+    width:1000px;
+    height:1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#imie
+{
+    text-align: center;
+    float:left;
+    height:60px;
+    width:700px;
+    background-color: aqua;
+}
+#zdjecie
+{
+    float:left;
+    height:60px;
+    width:300px;
+    background-color: blue;
+}
+.pusty
+{
+    clear:both;
+}
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    background-color: blueviolet;
+    height:600px;
+    width:1000px;
+}
+footer
+{
+    width:1000px;
+    height:80px;
+    background-color: lightseagreen;
 }
