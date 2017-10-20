@@ -1,8 +1,9 @@
 body
 {
     color:black;
-    background-color: grey;
-
+    background-color: #5786E8;
+    font-family: 'Lato', sans-serif;
+    background-image: url("tlo.jpg");
 }
 #container
 {
@@ -12,20 +13,20 @@ body
     margin-right: auto;
 
 }
-#imie
+.menu
 {
-    text-align: center;
-    float:left;
-    height:70px;
-    width:700px;
-    background-color: aqua;
+    width:100px;
+    height:40px;
+
 }
-#zdjecie
+.menu:hover
 {
-    float:left;
-    height:70px;
-    width:300px;
-    background-color: blue;
+
+}
+header
+{
+    background-color:#A66A1D;
+    opacity: 1;
 }
 .pusty
 {
@@ -42,7 +43,9 @@ main
 }
 p
 {
-
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
 }
 footer
 {
