@@ -1,0 +1,215 @@
+body
+{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    background-color: #383c3f;
+}
+header
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height:40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#menu
+{
+    background-color: #2F3336;
+    max-height: 220px;
+    width: 100%;
+    position: fixed;
+    min-height: 80px;
+}
+h1
+{
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    margin: 1px;
+}
+.paragraf
+{
+    text-align: center;
+
+}
+
+ol
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+ol a
+{
+    color: #4B9C95;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    float: left;
+    width: 300px;
+    height: 50px;
+
+}
+main
+{
+    height: 1754px;
+}
+#omnie
+{
+    max-width: 1600px;
+    height: 1000px;
+    background-color: #005580;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#opis1
+{
+    width:50%;
+    height: 1000px;
+    float: left;
+    background-color: #3D576B;
+    margin: 0px;
+
+}
+#opis2
+{
+    width:50%;
+    height: 1000px;
+    float: left;
+    background-color: #28485d;
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+
+}
+#skile
+{
+    max-width: 1600px;
+    height: 400px;
+    background-color: #567B96;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#loga
+{
+    width: 1000px;
+    text-align: center;
+    float: left;
+}
+#loga2
+{
+
+    padding-top: 60px;
+    font-size: 30px;
+
+}
+#skile > div > img
+{
+    margin-top: 50px;
+    max-width: 250px;
+    margin-left: 60px;
+
+}
+
+#projekty
+{
+    width:100%;
+    height: 353px;
+    background-color: #3D576B;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+.floaty
+{
+    height: 50%;
+    width:50%;
+    float: left;
+}
+.socials
+{
+    width:100%;
+    text-align: center;
+    background-color: #273a4e;
+}
+
+.socialdivs
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    position:inherit;
+
+}
+#fb
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+#fb:hover
+{
+    background-color: #4668b3;
+}
+#git
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+#git:hover
+{
+    background-color: #2b5166;
+}
+#linkedin
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+#linkedin:hover
+{
+    background-color: #007bb6;
+}
+#mail
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+#mail:hover
+{
+    background-color: #d95333;
+}
+.info
+{
+    background-color: #1B1D1F;
+    height: 25px;
+    color:#999999;
+}
+a.tilelink
+{
+    color: white;
+    text-decoration: underline;
+}
