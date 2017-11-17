@@ -11,7 +11,7 @@
     <title>Portfolio - Adam Tomaszewski</title>
     <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
     <script src="js.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC:400,500,700" rel="stylesheet">
 
 </head>
 
@@ -85,7 +85,7 @@
 </section>
 
 <!-- About Section -->
-<section class="success" id="about">
+<section class="about" id="about">
     <div class="container">
         <h2 id="omnie" class="text-center">O mnie</h2>
         <hr class="star-light">
@@ -107,63 +107,75 @@
 
 <div id="kontakt" class="container">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="well well-sm">
-                <form class="form-horizontal" action="mailto:email@address.com" method="post">
-                    <fieldset>
-                        <legend class="text-center">Skontaktuj się ze mną</legend>
 
-                        
-                        <!-- Name input-->
-                        <div class="form-group">
-
-                            <div class="col-md-9">
-                                <input id="name" name="name" required type="text" placeholder="Twoje imię i nazwisko" class="form-control">
-                            </div>
-                        </div>
-
-                        <!-- Email input-->
-                        <div class="form-group">
-
-                            <div class="col-md-9">
-                                <input id="email" name="email" required type="text" placeholder="Twój email" class="form-control">
-                            </div>
-                        </div>
-
-                        <!-- Message body -->
-                        <div class="form-group">
-
-                            <div class="col-md-9">
-                                <textarea class="form-control" required id="message" name="message" placeholder="Proszę wprowadź wiadomość..." rows="5"></textarea>
-                            </div>
-                        </div>
-
-                        <!-- Form actions -->
-                        <div class="form-group">
-                            <div class="col-md-12 text-left">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
+        <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(189, 224, 235);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="title col-12 col-lg-8">
+                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5 text-center">
+                        Skontaktuj się ze mną
+                    </h3>
+                </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="media-container-column col-lg-8" data-form-type="formoid">
+
+                    <form class="mbr-form" action="mailto:email@address.com" method="post" data-form-title="Mobirise Form"><input type="hidden">
+                        <div class="row row-sm-offset">
+                            <div class="col-md-4 multi-horizontal" data-for="name">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="name-form1-2w">Imię i Nazwisko</label>
+                                    <input type="text" class="form-control" name="name" data-form-field="Name" required >
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="email">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="email-form1-2w">Email</label>
+                                    <input type="email" class="form-control" name="email" data-form-field="Email" required >
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="phone">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-2w">Phone</label>
+                                    <input type="tel" class="form-control" name="phone" data-form-field="Phone" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" data-for="message">
+                            <label class="form-control-label mbr-fonts-style display-7" for="message-form1-2w">Wiadomość</label>
+                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-2w"></textarea>
+                        </div>
+
+                        <span class="input-group-btn">
+                            <button href="" type="submit" class="btn btn-primary btn-form display-4">Wyślij</button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+
     </div>
 </div>
 
 <!-- footer -->
-<div class="footer text-center">
+<div class="footer">
     <div class="footer-row">
         <div class="blocks">
             <p>Znajdz mnie</p>
-Gdańsk 80-437<br>ul. Wajdeloty 6/1<br>Tel: 500-171-229
+            Gdańsk 80-437</br>ul.Wajdeloty 6/1</br>Tel: 500-171-229
         </div>
         <div class="blocks">
+
             <h3>Tu jestem</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.588674624338!2d18.609980051459985!3d54.38191650424167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74be1369c5ed%3A0x23dd153fc3220255!2sWajdeloty+6%2C+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1510940767327" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
         </div>
         <div class="blocks">
+
             <p>Linki</p>
             <div class="row">
                 <div class="col-lg-4 col-md-6 sociallink fb"><a href="https://www.facebook.com/adam.tomaszewski.16" target="_blank" class="sociallink2"><i class="demo-icon icon-facebook"></i></a></div>

@@ -1,6 +1,7 @@
 body {
     padding-top: 54px;
     background-color: #999999;
+    font-family: 'Spectral SC', serif;
 }
 @media (min-width: 992px) {
     body {
@@ -17,7 +18,7 @@ img {
     background-color: #f7fcff;
     padding-bottom: 20px;
 }
-section.success
+section.about
 {
     color: white;
     background: #18BC9C;
@@ -34,6 +35,7 @@ section.success
     padding:15px;
     background-color: #35495b;
     color: #dbe0e3;
+    text-align: center;
 }
 .footer-row {
     display:table-row;
