@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
 
@@ -8,8 +8,8 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <meta name="author" content="Adam Tomaszewski">
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <title>Bare - Start Bootstrap Template</title>
-    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+    <title>Portfolio - Adam Tomaszewski</title>
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
     <script src="js.js"></script>
 
 
@@ -32,13 +32,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O mnnie</a>
+                    <a class="nav-link" href="#omnie">O mnie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -87,14 +87,14 @@
 <!-- About Section -->
 <section class="success" id="about">
     <div class="container">
-        <h2 class="text-center">O mnie</h2>
+        <h2 id="omnie" class="text-center">O mnie</h2>
         <hr class="star-light">
         <div class="row">
             <div class="col-lg-4 ml-auto">
-                <p>Cześć! Nazywam się Adam Tomaszewski. Moim celem jest zostanie Junior Front-End Developoerem</p>
+                <p>Cześć! Nazywam się Adam Tomaszewski. Moim celem jest zostanie Junior Front-End Developerem</p>
             </div>
             <div class="col-lg-4 mr-auto">
-                <p>Obecnie chodze na kurs Junior Front-End Developoer w trybie zaocznym do InfoShareAcademy w Gdańsku</p>
+                <p>Obecnie chodze na kurs Junior Front-End Developer w trybie zaocznym do InfoShareAcademy w Gdańsku</p>
             </div>
             <div class="col-lg-8 mx-auto text-center">
 
@@ -103,17 +103,64 @@
     </div>
 </section>
 
+<!-- Kontakt email -->
+
+<div id="kontakt" class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+                <form class="form-horizontal" action="mailto:email@address.com" method="post">
+                    <fieldset>
+                        <legend class="text-center">Skontaktuj się ze mną</legend>
+
+                        <!-- Name input-->
+                        <div class="form-group">
+
+                            <div class="col-md-9">
+                                <input id="name" name="name" required type="text" placeholder="Twoje imię i nazwisko" class="form-control">
+                            </div>
+                        </div>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+
+                            <div class="col-md-9">
+                                <input id="email" name="email" required type="text" placeholder="Twój email" class="form-control">
+                            </div>
+                        </div>
+
+                        <!-- Message body -->
+                        <div class="form-group">
+
+                            <div class="col-md-9">
+                                <textarea class="form-control" required id="message" name="message" placeholder="Proszę wprowadź wiadomość..." rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-left">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- footer -->
-<div id="footer" class="text-center">
+<div class="footer text-center">
     <div class="footer-row">
         <div class="blocks">
             <p>Znajdz mnie</p>
-Gdańsk 80-437<br>ul.Wajdeloty 6/1<br>Tel: 500-171-229
+Gdańsk 80-437<br>ul. Wajdeloty 6/1<br>Tel: 500-171-229
         </div>
         <div class="blocks">
             <h3>Tu jestem</h3>
-            <div id="map"></div>
-            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.588674624338!2d18.609980051459985!3d54.38191650424167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74be1369c5ed%3A0x23dd153fc3220255!2sWajdeloty+6%2C+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1510940767327" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
         </div>
         <div class="blocks">
             <p>Linki</p>
@@ -133,7 +180,7 @@ Gdańsk 80-437<br>ul.Wajdeloty 6/1<br>Tel: 500-171-229
 <!-- Bootstrap core JavaScript -->
 <script src="jquery/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-sTPuDAJKZ1el1qCg5jyWi0ps9KIBQWE&callback=initMap">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVH4Zu_cGdY0-g9CytksCHR-50f_oFgWQ&callback=initMap">
 </script>
 </body>
 
