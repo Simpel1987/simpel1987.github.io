@@ -28,7 +28,7 @@ section.success
     section.first {
         padding-top: 75px; } }
 
-#footer {
+.footer {
     display:table;
     width:100%;
     padding:15px;
@@ -41,10 +41,7 @@ section.success
 .footer-section {
     display:table-cell;
 }
-#map {
-    height: 200px;
-    width: 100%;
-}
+
 .blocks-container {
     width: calc(100% - 230px);
     height: calc(100% - 54px);
