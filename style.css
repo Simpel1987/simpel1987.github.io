@@ -1,0 +1,138 @@
+body {
+    padding-top: 54px;
+    background-color: #999999;
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+#portfolio
+{
+    background-color: #f7fcff;
+    padding-bottom: 20px;
+}
+section.success
+{
+    color: white;
+    background: #18BC9C;
+}
+@media (max-width: 767px) {
+    section {
+        padding: 75px 0; }
+    section.first {
+        padding-top: 75px; } }
+
+#footer {
+    display:table;
+    width:100%;
+    padding:15px;
+    background-color: #35495b;
+    color: #dbe0e3;
+}
+.footer-row {
+    display:table-row;
+}
+.footer-section {
+    display:table-cell;
+}
+#map {
+    height: 200px;
+    width: 100%;
+}
+.blocks-container {
+    width: calc(100% - 230px);
+    height: calc(100% - 54px);
+    position: absolute;
+    top: 54px;
+    left: 230px;
+}
+
+.blocks {
+    width: 33%;
+    height: 50%;
+
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .blocks {
+        width: 100%;
+    }
+}
+.kontakt
+{
+    width:30%;
+}
+.sociallink
+{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+;
+    max-width: 25%;
+
+}
+.sociallink2
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.sociallink2:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.fb
+{
+    background-color: #3e8ce0;
+}
+.fb:hover
+{
+    background-color: #3557a2;
+}
+.github
+{
+    background-color: #7e8487;
+}
+.github:hover
+{
+    background-color: #383c3f;
+}
+.linkedin
+{
+    background-color: #00a2e8;
+}
+.linkedin:hover
+{
+    background-color: #0077b5;
+}
+.masthead
+{
+    background-color: #2bcc83;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+
+}
+header.masthead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+}
+.img-zdjecie
+{
+    border-radius: 50%;
+}
